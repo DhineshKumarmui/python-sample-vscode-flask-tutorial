@@ -35,8 +35,6 @@ steps:
     pytest
   displayName: 'pytest'
 
-steps:
-
 - task: UsePythonVersion@0
   inputs:
     command: publish
